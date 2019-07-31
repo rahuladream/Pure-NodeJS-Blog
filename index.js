@@ -16,12 +16,22 @@ app.use(bodyParser.urlencoded({
     extended: true
 }));
 
-app.get('/', (req,res) => {
-    res.render('index')
+app.get('/', async(req,res) => {
+    const posts = await Post.find({})
+    res.render('index', {
+        posts
+    })
 });
 
 app.get('/posts/new', (req,res) => {
     res.render('create')
+});
+
+app.get('/post/:id', async(req, res) => {
+    const post = await Post.findById(req.params.id)
+    res.render('post', {
+        post
+    })
 });
 
 app.post('/posts/store', (req,res) => {
@@ -29,6 +39,8 @@ app.post('/posts/store', (req,res) => {
         res.redirect('/')
     })
 });
+
+
 
 mongoose.connect('mongodb://localhost:27017/node-blog', { useNewUrlParser: true })
     .then(() => 'You are now connected to Mongo!')
