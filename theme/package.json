@@ -1,0 +1,111 @@
+{
+  "_args": [
+    [
+      "startbootstrap-clean-blog",
+      "/home/rahul/dailylearn/nodejs-blog"
+    ]
+  ],
+  "_from": "startbootstrap-clean-blog@latest",
+  "_hasShrinkwrap": false,
+  "_id": "startbootstrap-clean-blog@5.0.7",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/startbootstrap-clean-blog",
+  "_nodeVersion": "11.6.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/startbootstrap-clean-blog_5.0.7_1560451396175_0.5463976464500826"
+  },
+  "_npmUser": {
+    "email": "feedback@startbootstrap.com",
+    "name": "startbootstrap"
+  },
+  "_npmVersion": "6.9.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "startbootstrap-clean-blog",
+    "raw": "startbootstrap-clean-blog",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/startbootstrap-clean-blog/-/startbootstrap-clean-blog-5.0.7.tgz",
+  "_shasum": "867b7e7c7e54e97536fd456fe09cdb6fdde52557",
+  "_shrinkwrap": null,
+  "_spec": "startbootstrap-clean-blog",
+  "_where": "/home/rahul/dailylearn/nodejs-blog",
+  "author": {
+    "name": "Start Bootstrap"
+  },
+  "bugs": {
+    "email": "feedback@startbootstrap.com",
+    "url": "https://github.com/BlackrockDigital/startbootstrap-clean-blog/issues"
+  },
+  "contributors": [
+    {
+      "name": "David Miller",
+      "url": "http://davidmiller.io/"
+    }
+  ],
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "5.9.0",
+    "bootstrap": "4.3.1",
+    "jquery": "3.4.1"
+  },
+  "description": "Clean Blog is a Medium inspired blog theme for Bootstrap.",
+  "devDependencies": {
+    "browser-sync": "2.26.7",
+    "del": "4.1.1",
+    "gulp": "4.0.2",
+    "gulp-autoprefixer": "6.1.0",
+    "gulp-clean-css": "4.2.0",
+    "gulp-header": "2.0.7",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "1.4.0",
+    "gulp-sass": "4.0.2",
+    "gulp-uglify": "3.0.2",
+    "merge-stream": "2.0.0"
+  },
+  "directories": {},
+  "dist": {
+    "fileCount": 86,
+    "integrity": "sha512-Nx37YEw7owSP7Ab5u9uCAAML8eOC2IQ494g/ZhNXS2Mvxrmj2Ed9hIvf4YrXaabrKqXE7MYlwKIwUSoFB2QuMg==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdAplFCRA9TVsSAnZWagAAWz4P/jCuMvYhI0bazPEmk9ZV\nEVPfjkSu7kXFOCRIAtQ+c6E99DlxqIK+Z0qQKH12DIAs2HzG7l5/Yaxu1MMn\neYawmzHp7Cnk6yfdefg5LfWu/UJQfZ0xZsDCI+qbWJZ03gEu+R5aTHee30xT\nnpjN52s57mifIY/zNuDeav7BPjzhlriPLm0LFtFBd0bEbpihh6/pToRier2G\nxyxJut0013fMBKTtND8c2Dsaon4wq6BchuxxsLmy4UWj0oGQd5yNl4mVKGs9\nvJiabQJoPheSoDLwLcZom4Dhe/0tQFw0JY8U+tiBR5mxkrymUhGQJlGOUEgt\nmrKz39acYBZzPYdmtuZSAAvI6YWNMNkmMHeJz5g5d2Zn6EVD+hCxY4YytpZk\nL8znUDO528H32UQljCDrhbNk2Skm3+oSG+q5jeekaWPh/JXZSbRajDPYfXDS\nPi93HNEd68LWdE4kswTZ9V5MA9IJm94ayk3cScwdZsIM2lvK3o3j0l0GklJH\nNL9Vw/A1vNHi0DYG1iwm4oQpJ14m9tZxKDb46bFuPSS+vYfoDyvSTZaHlTgH\nSHy22h6TbLwwGYaS5Ok8TgqEx/3HSbW9f/FruOEJ7G19YNzA22XMZwj0UNVE\nF2NvOmKXA8N53wqyr8aCThDnlUtEgSF+sC/fwu6OHMbaRNuP1zdKYE7i3kC3\n1hIk\r\n=P7yE\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "867b7e7c7e54e97536fd456fe09cdb6fdde52557",
+    "tarball": "https://registry.npmjs.org/startbootstrap-clean-blog/-/startbootstrap-clean-blog-5.0.7.tgz",
+    "unpackedSize": 13679365
+  },
+  "gitHead": "ea0d86a2fa7963b5dec1e1ab86d800d030b6017c",
+  "homepage": "https://startbootstrap.com/template-overviews/clean-blog",
+  "keywords": [
+    "css",
+    "html",
+    "responsive",
+    "sass",
+    "template",
+    "theme"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "startbootstrap",
+      "email": "feedback@startbootstrap.com"
+    }
+  ],
+  "name": "startbootstrap-clean-blog",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlackrockDigital/startbootstrap-clean-blog.git"
+  },
+  "scripts": {
+    "start": "gulp watch"
+  },
+  "title": "Clean Blog",
+  "version": "5.0.7"
+}

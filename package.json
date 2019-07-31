@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-blog",
+  "version": "1.0.0",
+  "description": "Create a blog using nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "rahuladream",
+  "license": "ISC",
+  "dependencies": {
+    "express-edge": "^1.0.0"
+  }
+}
