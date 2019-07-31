@@ -12,6 +12,7 @@
   "author": "rahuladream",
   "license": "ISC",
   "dependencies": {
-    "express-edge": "^1.0.0"
+    "express-edge": "^1.0.0",
+    "mongoose": "^5.6.7"
   }
 }
