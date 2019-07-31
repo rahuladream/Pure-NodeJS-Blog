@@ -17,6 +17,9 @@ app.use(bodyParser.urlencoded({
     extended: true
 }));
 
+const storePost = require('./middleware/storePost')
+app.use('/posts/store', storePost)
+
 app.get('/', async(req,res) => {
     const posts = await Post.find({})
     res.render('index', {
